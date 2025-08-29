@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — Tanzia Hoque</title>
+  <meta name="description" content="Portfolio of Tanzia Hoque — Administration, Accounts & Supply Chain Management."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <div class="brand">
+      <img src="assets/images/tanzia.jpg" alt="Tanzia Hoque Logo"/>
+      <a href="index.html" aria-label="Home">Tanzia&nbsp;Hoque</a>
+    </div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="education.html">Education</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+
+<section>
+  <h2 class="section-title">Contact</h2>
+  <div class="two-col">
+    <div class="card">
+      <p>Prefer email or LinkedIn for professional opportunities. Phone is available for verified inquiries.</p>
+      <ul style="list-style: none; margin-top:.6rem;">
+        <li><strong>Email:</strong> <a href="mailto:tanzubaichi@gmail.com">tanzubaichi@gmail.com</a> <!-- TODO: replace with real email --></li>
+        <li><strong>LinkedIn:</strong> <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/tanzia-h-54a729b7">linkedin.com/in/tanzia-hoque</a> <!-- TODO: verify or replace --></li>
+      </ul>
+    </div>
+    <div class="card">
+      <form name="contact" onsubmit="event.preventDefault(); alert('Thanks! This demo form does not send emails.');">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" required placeholder="John Doe"/>
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email" required placeholder="john@example.com"/>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</div>
+<footer>
+  <div class="container">
+    <p>© 2025 Tanzia Hoque. Built with HTML5 & CSS by Tanzia Hoque.</p>
+  </div>
+</footer>
+</body>
+</html>
